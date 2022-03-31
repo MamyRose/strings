@@ -1,0 +1,24 @@
+# Do not modify these lines
+__winc_id__ = 'd0d3cdcefbb54bc980f443c04ab3a9eb'
+__human_name__ = 'operators'
+
+# Add your code after this line
+Most_spoken_lan_Spain = "Castilian Spanish"
+Most_spoken_lan_Swiss = "Swiss German"
+print(Most_spoken_lan_Swiss == Most_spoken_lan_Spain)
+Most_prev_rel_Spain = "Roman Catholic"
+Most_prev_rel_Swiss = "Roman Catholic"
+print(Most_prev_rel_Spain == Most_prev_rel_Swiss)
+Madrid = len("Madrid")
+Zurich = len("Zurich")
+print(Madrid != Zurich)
+gdp_Spain = 36.200
+gdp_Swiss = 68.400
+print(gdp_Swiss > gdp_Spain)
+pop_growth_Spain = -0.03
+pop_growth_Swiss = 0.65
+print(pop_growth_Spain < 1 and pop_growth_Swiss < 1)
+pop_count_Spain = 47260584
+pop_count_Swiss = 8453550
+print(pop_count_Spain > 10000000 or pop_count_Swiss > 10000000)
+print([pop_count_Spain > 10000000, pop_count_Swiss > 10000000])
